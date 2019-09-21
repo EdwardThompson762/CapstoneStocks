@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Capstone1</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main role="main">
+      <header role="banner">
+        <div class="header1">
+          <p>Stock News </p>
+        </div>
+        <div class="header3">
+          <p>Here you can find articles and videos relating to the stock market</p>
+        </div>
+      </header>
+    <div id="background">
+      <!-- this div will contain the articles and search for articles-->
+      <div id="newsArticles">
+        <form id="searchArticles">
+          <label for="searchingArticles">Search for company Stock News
+          </label>
+              <div>
+                <p>Use company acronym such as tlsa for Tesla, ea for Electronic Arts.
+              </div>
+            <div>
+            <input type="text" id="articleSearch"placeholder="Stock Acronym">
+            <button class="button" type="submit">Search</button>
+            </input>
+            <div>
+          <label>
+        </form>
+
+      <section id="articleResults">
+        <h4>The News</h4>
+          <ul id="articleList">
+          </ul>
+          
+      </section>
+        
+      </div>
+      <!--This div will have a search function for news videos-->
+      <div id="newsVideos">
+        <form id="searchVideos">
+          <label for="searchingVideos">Search for company Stock Videos
+          </label>
+          <div>
+                <p>Use company acronym such as tlsa for Tesla, ea for Electronic Arts.
+              </div>
+          <div>
+            <input type="text" id="videoSearch"placeholder="Stock Acronym">
+            <button class="button" type="submit">Search</button>
+          </div>
+        </form>
+
+        <section id="videoResults">
+        <h4>The News</h4>
+          <ul id="videoList">
+          </ul>
+          
+        </section>
+
+      </div>
+
+      <!--These two seperate in case I can incoperate a 2nd API 
+      <!--This div will have Central Index Key (CIK) and ticker conversions for looking up companies-->
+      <div id="companyKey">
+
+      </div>
+      <!--This div will have SEC filing data available including balance sheets, cash flows -->
+      <div id="companyData">
+
+      </div>
+      
+      </div>
+    </main>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

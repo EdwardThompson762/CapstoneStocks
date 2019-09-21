@@ -1,0 +1,300 @@
+#background{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/04/i3ej3emhaoy26.jpg');
+  background-size:100%;
+  opacity:0.8;
+  border-radius:15px;
+        }
+#searchArticles{
+  font-family:Times;
+  font-size:1.5rem;
+  font-weight:500;
+  text-align:center;
+  margin-top:1%;
+  padding-top:3%;
+}
+#searchVideos{
+  font-family:Times;
+  font-size:1.5rem;
+  font-weight:500;
+  text-align:center;
+  margin-top:5%;
+  padding-top:3%;
+}
+#newsVideos{
+  min-height:800px;
+
+}
+a{
+  text-decoration:none;
+}
+#articleSearch{
+  width: 20%;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: white;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius:22px;
+  margin-top:2%;
+}
+#videoSearch{
+  width: 20%;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: white;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius:22px;
+  margin-top:2%;
+}
+.button{
+  border-radius:25px;
+  color:black;
+  background:white;
+}
+@media only screen and (max-width: 750px){
+  
+  header{
+    width:100%;
+    font-size:1.25rem;
+    font-family:Times;
+    font-weight:400;
+    color:white;
+    padding: 10px;
+    text-align:center;
+    background-color:#212529;
+    border-radius: 25px;
+    
+    
+  }
+  h3{
+    font-size:1rem;
+    font-family:Times;
+  }
+  h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500;
+      color:rgb(255, 0, 0);
+      padding-left:10%;
+  }
+  
+  
+  #articleList{
+      display:flex;
+      flex-direction:column;
+      margin-bottom:3%;
+      text-align:center;
+      font-family:'Times New Roman', Times, serif;
+      font-size:1.1rem;
+      list-style:none;
+      
+
+  }
+  
+  #videoList{
+      font-size:1.1rem;
+      display:flex;
+      flex-direction:column;
+      margin-bottom:3%;
+      text-align:center;
+      font-family:'Times New Roman', Times, serif;
+      list-style:none;
+  }
+  .title{
+    display:flex;
+    font-size:1.2rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .source{
+    display:flex;
+    font-size:1.1rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .date{
+    display:flex;
+    font-size:1.0rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .sentiment{
+    display:flex;
+    font-size:1.0rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .text{
+    display:flex;
+    font-size:1.0rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .images{
+    width:100%;
+    display:flex;
+    font-size:1.0rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1366px){
+  header{
+    font-size:1.7rem;
+    font-family:Times;
+    font-weight:400;
+    color:white;
+    padding: 10px;
+    text-align:center;
+    background-color:#212529;
+    border-radius: 25px;
+    
+  }
+  h3{
+    font-size:22px;
+    font-family:Times;
+  }
+  h4{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color:rgb(255, 0, 0);
+  }
+  
+  #articleResults{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:3%;
+    text-decoration:none;
+  }
+  #videoResults{
+    text-decoration:none;
+    display:flex;
+    flex-direction:column;
+  }
+  .title{
+    display:flex;
+    font-size:1.5rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .source{
+    display:flex;
+    font-size:1.3rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .date{
+    display:flex;
+    font-size:1.2rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .sentiment{
+    display:flex;
+    font-size:1.2rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .text{
+    display:flex;
+    font-size:1.2rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .images{
+    width:75%;
+    display:flex;
+    font-size:1.1rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1367px){
+  header{
+    font-size:2rem;
+    font-family:Times;
+    font-weight:400;
+    color:white;
+    padding: 10px;
+    text-align:center;
+    background-color:#212529;
+    border-radius: 25px;
+    
+  }
+  h3{
+    font-size:27px;
+    font-family:Times;
+  }
+  h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500;
+      color:rgb(255, 0, 0);
+  }
+  .articleImage{
+    
+  }
+  #articleResults{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:3%;
+    text-decoration:none;
+  }
+  #videoResults{
+    text-decoration:none;
+  }
+  .title{
+    display:flex;
+    font-size:1.75rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .source{
+    display:flex;
+    font-size:1.5rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .date{
+    display:flex;
+    font-size:1.3rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .sentiment{
+    display:flex;
+    font-size:1.3rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .text{
+    display:flex;
+    font-size:1.3rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .images{
+    width:500px;
+    display:flex;
+    font-size:1.3rem;
+    flex-direction:column;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  
+}
