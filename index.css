@@ -251,7 +251,7 @@ a{
   }
   #articleResults{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     margin-bottom:3%;
     text-decoration:none;
   }
